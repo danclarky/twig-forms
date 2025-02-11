@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <title>test twig</title>
+    <link href="{{ absolute_url(asset('asset/css/test.css')) }}" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <h1>test</h1>
+        {# test_client section #}
+            {% if client == 1 %}
+                {{ include('@sections/test_client.html.twig') }}
+            {% endif %}
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+knp_snappy:
+    pdf:
+        binary: "C:\\projects\\wkhtmltox\\bin\\wkhtmltopdf.exe"
+        enabled: true
+        options: 
+            enable-local-file-access: true
+            page-size: A4
+            margin-top: 10mm
+            margin-right: 10mm
+            margin-bottom: 10mm
+            margin-left: 10mm
+            encoding: 'UTF-8'
+            no-outline: true
+            lowquality: false
+            enable-forms: true
+        
+

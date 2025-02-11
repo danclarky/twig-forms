@@ -1,0 +1,55 @@
+input[type="text"] {
+    border: none;
+    width: 100%
+}
+
+body {
+    text-align: justify;
+    font-family: Arial;
+    font-size: 10pt;
+    font-size: 10pt;
+    width: 210mm;
+    height: 297mm;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    margin: 0pt
+}
+
+h1 {
+    text-align: center;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    font-family: 'Arial';
+    font-size: 14pt;
+    font-weight: bold;
+    color: black;
+    margin: 0pt;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 1pt;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0px 0px 10px 0px;
+    border: 1.5pt solid #000000;
+}
+
+td{
+    border-left: 1pt solid #000000;
+    border-top: 1pt solid #000000;
+}
+
+.tbl1td{
+    padding-right:4pt;
+    padding-left:4pt;
+    vertical-align:middle;
+}

@@ -1,0 +1,12 @@
+
+<tr>
+    <td colspan="6" class="tbl1td">
+        {% for val in client_data %}
+            <p style="margin-left:10pt;" class="p6label">
+                client:
+                {{ val['name'] }}
+                {{ val['phone'] }}
+            </p>
+        {% endfor %}
+    </td>
+</tr>
