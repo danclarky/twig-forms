@@ -1,6 +1,6 @@
 knp_snappy:
     pdf:
-        binary: "C:\\projects\\wkhtmltox\\bin\\wkhtmltopdf.exe"
+        binary: "D:\\projects\\wkhtmltox\\bin\\wkhtmltopdf.exe"
         enabled: true
         options: 
             enable-local-file-access: true
@@ -13,5 +13,3 @@ knp_snappy:
             no-outline: true
             lowquality: false
             enable-forms: true
-        
-

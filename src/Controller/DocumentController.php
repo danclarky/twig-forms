@@ -57,6 +57,7 @@ class DocumentController extends AbstractController
                 }
                 $htmlContent = $this->renderView($templateCode . '.html.twig', $data);
             if ($externalFormat == 'pdf') {
+                $this->pdf->setTimeout(180);
                     $content = $this->pdf->getOutputFromHtml($htmlContent);
             } else {
                 $content = $htmlContent;
